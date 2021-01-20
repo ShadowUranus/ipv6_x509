@@ -1,0 +1,1 @@
+{"redisPort": "6379", "timeout": "5", "redisHost": "127.0.0.1", "redisPass": "", "destHost": "www.jd.com"}

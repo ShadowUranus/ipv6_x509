@@ -1,0 +1,21 @@
+[[source]]
+name = "pypi"
+url = "https://mirrors.aliyun.com/pypi/simple/"
+verify_ssl = true
+
+[dev-packages]
+pyqt5-tools = "*"
+
+[packages]
+ipy = "*"
+redis = "*"
+scapy = "*"
+celery = "*"
+requests = "*"
+pyopenssl = "*"
+cryptography = "*"
+python-nmap = "*"
+pyqt5 = "*"
+
+[requires]
+python_version = "3.8"
