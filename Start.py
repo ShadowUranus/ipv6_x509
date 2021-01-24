@@ -132,6 +132,9 @@ class ProjectWindow(QMainWindow, Ui_MainWindow):
 
     def update_redis_status(self):
         try:
+            out = os.popen("ps aux | grep redis-server | wc -l")
+            if out != "2":
+                out_note = os.system("redis-server &")
             ResListRs.keys()
             self.label_2.setText("Connected")
             self.generate_btn.setDisabled(False)
